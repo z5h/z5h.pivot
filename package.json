@@ -1,0 +1,26 @@
+{
+  "name": "z5h.pivot",
+  "version": "0.0.1",
+  "description": "pivot table",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests/*.js"
+  },
+  "devDependencies": {
+    "tape": "~2.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/z5h/z5h.pivot.git"
+  },
+  "keywords": [
+    "pivot",
+    "table"
+  ],
+  "author": "Mark Bolusmjak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z5h/z5h.pivot/issues"
+  },
+  "homepage": "https://github.com/z5h/z5h.pivot"
+}
