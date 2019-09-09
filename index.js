@@ -219,8 +219,8 @@ var pivot = (function () {
       Utils.copyProperties(userOptions, options);
     }
 
-    var leftSet = new SortedSet(Utils.makeComparator(rowNames, data, options));
-    var topSet = new SortedSet(Utils.makeComparator(columnNames, data, options));
+    var leftSet = new SortedSet(Utils.makeComparator(rowNames, data, options.comparators));
+    var topSet = new SortedSet(Utils.makeComparator(columnNames, data, options.comparators));
 
     data = extractData(data, options);
 
